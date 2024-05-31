@@ -1,0 +1,73 @@
+#cv {
+  width: 75%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+#one {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto 1fr;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+#name {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: xxx-large;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#position {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: medium;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.contact {
+  width: 250px;
+  grid-column: 2/3;
+  grid-row: 1/3;
+  align-self: start;
+  justify-self: end;
+  text-align: right;
+}
+
+#about-me {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  text-align: center;
+}
+#about-me #info {
+  max-width: 70%;
+  margin: auto;
+}
+
+#two {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+#two #schools, #two #skills {
+  flex: 1;
+}
+
+#three {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #cv {
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+  }
+}/*# sourceMappingURL=styles.css.map */

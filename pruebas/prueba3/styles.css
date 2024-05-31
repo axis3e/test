@@ -1,0 +1,59 @@
+
+#title {
+    color: #f706c3;
+    text-align: center;
+}
+.nvbr {
+  background-color: #f706c3;
+  padding: 15px;
+  max-width: 80%;
+  margin: auto;
+}
+.nvbr ul {
+  list-style: none;
+  margin: 5px;
+  padding: auto;
+}
+.nvbr ul li {
+  display: inline-block;
+  margin: auto;
+
+}
+.nvbr ul li a {
+  text-decoration: solid;
+  color: #fff;
+}
+
+/*Para computadora portatil*/
+@media screen and(max-width: 1024px){
+  #title{
+    color: #00b7ff;
+    text-align: left;
+  }
+  .nvbr{
+    width: 90%;
+    padding: 20px;
+    background-color: #00b7ff;
+  }
+  .nvbr ul li a {
+    text-decoration: solid;
+    color: #000000;
+  }
+}
+
+/*Para tablet / smartphone grande*/
+@media screen and(max-width: 768px){
+  #title{
+    color: #008622;
+    text-align: right;
+  }
+  .nvbr{
+    width: 75%;
+    padding: 15px;
+    background-color: #008622;
+  }
+  .nvbr ul li a {
+    text-decoration: solid;
+    color: #585858;
+  }
+}
